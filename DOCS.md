@@ -100,7 +100,7 @@ If VM is not needed then sign out from SSH and run:
 
     vagrant destroy
 
-to terminate it or just stop it by:
+to terminate it. Or just stop it by:
 
     vagrant halt
 
