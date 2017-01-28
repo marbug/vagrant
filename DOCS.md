@@ -96,11 +96,11 @@ Now run
 
 to SSH into this machine.
 
-After VM is not needed then run:
+If VM is not needed then sign out from SSH and run:
 
     vagrant destroy
 
-or just stop it by:
+to terminate it or just stop it by:
 
     vagrant halt
 
