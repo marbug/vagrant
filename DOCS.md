@@ -38,7 +38,7 @@ If you see text like:
     `vagrant up --provider=PROVIDER`, which should give you a more specific
     error message for that particular provider.
 
-then one of programs (VirtualBox, VMware, etc) should be installed.
+then one of programs (VirtualBox, VMware, etc) should be installed first.
 If one of these programs has been installed, then you'll see something like:
 
     Bringing machine 'default' up with 'virtualbox' provider...
