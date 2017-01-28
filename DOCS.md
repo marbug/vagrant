@@ -39,3 +39,14 @@ If you see text like:
     error message for that particular provider.
 
 then one of programs (VirtualBox, VMware, etc) should be installed.
+If one of these programs has been installed, then you'll see something like:
+
+    Bringing machine 'default' up with 'virtualbox' provider...
+    ==> default: Box 'hashicorp/precise64' could not be found. Attempting to find and install...
+        default: Box Provider: virtualbox
+        default: Box Version: >= 0
+    ==> default: Loading metadata for box 'hashicorp/precise64'
+        default: URL: https://atlas.hashicorp.com/hashicorp/precise64
+    ==> default: Adding box 'hashicorp/precise64' (v1.1.0) for provider: virtualbox
+        default: Downloading: https://atlas.hashicorp.com/hashicorp/boxes/precise64/versions/1.1.0/providers/virtualbox.box
+        default: Progress: 3% (Rate: 574k/s, Estimated time remaining: 0:09:09)-)
