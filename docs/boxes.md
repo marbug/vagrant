@@ -38,4 +38,9 @@ The best place to find more boxes is [HashiCorp's Atlas box catalog](https://atl
 
 In addition to finding free boxes, HashiCorp's Atlas lets you host your own boxes, as well as private boxes if you intend on creating boxes for your own organization.
 
+| Box Name | Description |
+| -------- | ----------- |
+| hashicorp/precise64 | A standard Ubuntu 12.04 LTS 64-bit box |
+| ubuntu/xenial64 | Official Ubuntu 16.04 LTS (Xenial Xerus) Daily Build |
+
 [prev page: Vagrantfile](vagrantfile.md) | TODO
