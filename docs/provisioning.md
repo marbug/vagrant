@@ -30,4 +30,4 @@ After everything is configured, just run **vagrant up** to create your machine a
 
 For complex provisioning scripts, it may be more efficient to package a custom Vagrant box with those packages pre-installed instead of building them each time. This topic is not covered by the getting started guide, but can be found in the [packaging custom boxes](https://www.vagrantup.com/docs/boxes/base.html) documentation.
 
-TODO
+[prev page: Synced Folders](synced-folders.md) | [next page: Networking](networking.md)
