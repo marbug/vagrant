@@ -43,4 +43,4 @@ In addition to finding free boxes, HashiCorp's Atlas lets you host your own boxe
 | hashicorp/precise64 | A standard Ubuntu 12.04 LTS 64-bit box |
 | ubuntu/xenial64 | Official Ubuntu 16.04 LTS (Xenial Xerus) Daily Build |
 
-[prev page: Vagrantfile](vagrantfile.md) | TODO
+[prev page: Vagrantfile](vagrantfile.md) | [next page: Up and SSH](up-and-ssh.md)
