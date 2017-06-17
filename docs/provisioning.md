@@ -28,4 +28,6 @@ The "provision" line is new, and tells Vagrant to use the shell provisioner to s
 
 After everything is configured, just run **vagrant up** to create your machine and Vagrant will automatically provision it. You should see the output from the shell script appear in your terminal. If the guest machine is already running from a previous step, run **vagrant reload --provision**, which will quickly restart your virtual machine, skipping the initial import step. The provision flag on the reload command instructs Vagrant to run the provisioners, since usually Vagrant will only do this on the first **vagrant up**.
 
+For complex provisioning scripts, it may be more efficient to package a custom Vagrant box with those packages pre-installed instead of building them each time. This topic is not covered by the getting started guide, but can be found in the [packaging custom boxes](https://www.vagrantup.com/docs/boxes/base.html) documentation.
+
 TODO
